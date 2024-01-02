@@ -1,0 +1,11 @@
+.btnList {
+  display: flex;
+  margin-left: 10px;
+}
+.btnItem:not(:last-child) {
+  margin-right: 10px;
+}
+
+.btn {
+  text-transform: capitalize;
+}
